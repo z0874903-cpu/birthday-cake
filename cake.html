@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scene">
+  <h1 class="text">Happy Birthday </h1>
+
+  <div class="cake">
+
+    <div class="layer thick1"></div>
+    <div class="layer thin1"></div>
+    <div class="layer thick2"></div>
+    <div class="layer thin2"></div>
+
+    <div class="cream"> <span></span></div>
+
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script>
+  document.body.addEventListener("click", () => {
+  document.querySelector(".flame").style.display = "none";
+});
+</script>
+</html>
